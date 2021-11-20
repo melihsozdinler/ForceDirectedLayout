@@ -26,14 +26,14 @@
 
 #include "command-switches.h"
 #include "file-handler.h"
-#include "config.h"
+//#include "config.h"
 #include "layout.h"
 
 using namespace std;
 
 // Method for showing usage
 void show_usage(){
-	cout << "fdl - " << PACKAGE_STRING << " " << PACKAGE_BUGREPORT << " " << PACKAGE_URL << endl;
+	//cout << "fdl - " << PACKAGE_STRING << " " << PACKAGE_BUGREPORT << " " << PACKAGE_URL << endl;
 	cout << "\t Performs a force directed layout algorithm against the specified file." << endl;
 	cout << endl;
 	cout << "Usage: fdl [OPTION]... --in=[INPUT-FILE] --out=[OUTPUT-FILE]" << endl;
